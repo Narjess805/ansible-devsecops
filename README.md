@@ -244,7 +244,7 @@ docker --version
 
 **Capture d'écran :**
 
-![Playbook Docker](./screenshots/28-playbook-docker.png)
+![![Playbook Docker](screenshots/28-playbook-docker.png)](./screenshots/28-playbook-docker.png)
 
 ---
 
