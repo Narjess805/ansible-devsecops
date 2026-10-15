@@ -36,12 +36,10 @@ ansible [core 2.17.14]
 
 **Capture d'écran :**
 
-![Version Ansible](./screenshots/25-ansible-version.png)
-
+![Version Ansible](screenshots/25-ansible-version.png)
 ---
 
 ### 26- Inventory et test de communication
-
 **Fichier `inventory` :**
 
 ```ini
