@@ -43,27 +43,10 @@ ansible [core 2.17.14]
 
 ```ini
 [ubuntu_servers]
-localhost ansible_connection=local ansible_python_interpreter=/usr/bin/python3
-```
+devsecops-vm ansible_host=127.0.0.1 ansible_connection=local ansible_python_interpreter=/usr/bin/python3
 
-**Commande :**
-
-```bash
-ansible all -i inventory -m ping
-```
-
-**Résultat :**
-
-```
-localhost | SUCCESS => {
-    "changed": false,
-    "ping": "pong"
-}
-```
-
-**Capture d'écran :**
-
-![Ansible ping](screenshots/26-ansible-ping.png)
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
 
 ---
 
